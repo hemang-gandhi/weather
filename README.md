@@ -6,20 +6,26 @@ Java Case Study – Weather forecast
 # Tools Used
 
 Spring Boot  - 2.1.8.RELEASE
+
 Gradle
-Java 8.
-Lombok.
+
+Java 8
+
+Lombok
+
 SpringFox Swagger and Swagger UI - 2.7.0
 
 # Supporting libraries
 
 Spring boot validation framework
+
 Devtools
+
 Apache commons lang 3
 
 # Steps to run:
 
-1. Import into your IDE as existing Gradle project.
+Import into your IDE as existing Gradle project.
 
 or
 
@@ -29,7 +35,7 @@ Download the source code from github and run:
 
 2. Go to web browser or postman and execute the below API:
 
-http://localhost:8080/average?city=ahmedabad
+`http://localhost:8080/average?city=ahmedabad`
 
 # Notes:
 
@@ -37,11 +43,13 @@ http://localhost:8080/average?city=ahmedabad
 2. City parameter can be any valid city like Ahmedabad, London, etc.
 3. Valid request will generate response like:
 
-`{
-    "dailyAverage": 28.62,
-    "nightlyAverage": 26.44,
+```
+{
+    "dailyAverage": 28.62,    
+    "nightlyAverage": 26.44,    
     "pressureAverage": 1006.29
-}`
+}
+ ```
 
 # API Documentation
 
